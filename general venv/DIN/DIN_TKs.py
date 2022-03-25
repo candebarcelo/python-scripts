@@ -37,7 +37,7 @@ time.sleep(1)
 
 username_input = browser.find_element_by_id('i0116')
 username_input.clear()
-username_input.send_keys('21900622.csc@tigre.com')
+username_input.send_keys(' ') #enter email between ''
 
 next_button = browser.find_element_by_id('idSIButton9')
 next_button.click()
