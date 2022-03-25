@@ -1,0 +1,21 @@
+<html>
+
+<head>
+    <title>Cande is the best</title> <!-- this is what appears as the Tab name in your browser-->
+    <link rel='stylesheet' type='text/css' href='static/style.css'> <!--the browser only reads the html file,
+                                                    so you need to tell it that u're using a css file too.
+                                                    it goes here below the title. rel means relationship.
+                                                    href is where the css file is, in this case just 
+                                                    style.css bc it's in the same folder as this one. -->
+    
+    <link rel="shortcut icon" href="{{ url_for('static', filename='qficon.ico') }}">
+</head>
+
+<body> <!--write whatever u want in the body of the website-->
+    I AM THE BEST <br> <!-- <br> inserts a line break (enter) -->
+    Hello {{name}} 
+    <script src='static/script.js'></script> <!--tell the browser you're using a js file too. this is 
+                                        usually at the bottom of the body. src stands for source-->
+</body>
+
+</html>

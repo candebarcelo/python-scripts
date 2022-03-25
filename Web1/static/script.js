@@ -1,0 +1,1 @@
+console.log('hiiii!') // prints hiiii! in the website's console (which u can see from Developer Tools)
